@@ -12,3 +12,36 @@ This repository contains a Selenium-based project designed for automated web tes
 - Detailed reporting and logging
 
 ## Project Structure
+
+│
+├── src/
+│ ├── main/
+│ │ └── java/
+│ │ └── com/
+│ │ └── project/
+│ │ ├── pages/
+│ │ ├── tests/
+│ │ └── utils/
+│ └── test/
+│ └── java/
+│ └── com/
+│ └── project/
+│ ├── tests/
+│ └── utils/
+│
+├── resources/
+│ ├── config/
+│ └── testdata/
+│
+├── drivers/
+│ ├── chromedriver.exe
+│ └── geckodriver.exe
+│
+├── reports/
+│
+├── logs/
+│
+├── .gitignore
+├── pom.xml (if using Maven)
+├── build.gradle (if using Gradle)
+└── README.md
