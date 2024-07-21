@@ -29,7 +29,7 @@ public class LoginPageTest {
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    // Test LoginPage UI
+    // Test LoginPage UI(user interface)
 
     @Given("I want to visit on login page and verify Website logo")
     public void  testWebsiteLogo(){
